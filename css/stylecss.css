@@ -7,14 +7,14 @@
   border-bottom: 2px solid #AB966F;
   border-top: 2px solid #AB966F;
   padding: 20px; }
-  .contenido .text-center,
+  .contenido .text-center-1,
   .contenido .text-center-2,
   .contenido .text-center-3,
   .contenido .text-center-4 {
     margin-top: 30px; }
-    .contenido .text-center h1,
-    .contenido .text-center h2,
-    .contenido .text-center h3,
+    .contenido .text-center-1 h1,
+    .contenido .text-center-1 h2,
+    .contenido .text-center-1 h3,
     .contenido .text-center-2 h1,
     .contenido .text-center-2 h2,
     .contenido .text-center-2 h3,
@@ -24,11 +24,10 @@
     .contenido .text-center-4 h1,
     .contenido .text-center-4 h2,
     .contenido .text-center-4 h3 {
-      color: white;
-      margin: 10px auto;
+      color: #ffffff;
       font-size: 1.7vw;
       font-weight: bold; }
-    .contenido .text-center p,
+    .contenido .text-center-1 p,
     .contenido .text-center-2 p,
     .contenido .text-center-3 p,
     .contenido .text-center-4 p {
@@ -36,6 +35,16 @@
       max-width: 55vw;
       padding: 5px;
       font-size: 1.3vw; }
+  .contenido .imagen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .contenido .imagen img {
+      width: auto;
+      height: 10vw;
+      cursor: pointer;
+      border-radius: 2px;
+      border: 5px solid black; }
 
 :root {
   --color-menu: #222222cc; }
@@ -97,7 +106,7 @@ header {
   header .esconder-menu,
   header .mostrar-menu {
     font-size: 30px;
-    color: white;
+    color: #ffffff;
     display: none;
     cursor: pointer; }
   header .esconder-menu:hover,
@@ -105,6 +114,9 @@ header {
     color: #CBCBCB; }
   header #check {
     display: none; }
+
+footer div section a i {
+  font-size: 1.2vw; }
 
 @media only screen and (min-width: 0px) and (max-width: 575.98px) {
   /*Menu*/
@@ -142,14 +154,14 @@ header {
         max-width: 20%; }
   .contenido {
     width: 90%; }
-    .contenido .text-center,
+    .contenido .text-center-1,
     .contenido .text-center-2,
     .contenido .text-center-3,
     .contenido .text-center-4 {
       margin-top: 30px; }
-      .contenido .text-center h1,
-      .contenido .text-center h2,
-      .contenido .text-center h3,
+      .contenido .text-center-1 h1,
+      .contenido .text-center-1 h2,
+      .contenido .text-center-1 h3,
       .contenido .text-center-2 h1,
       .contenido .text-center-2 h2,
       .contenido .text-center-2 h3,
@@ -162,7 +174,7 @@ header {
         color: white;
         margin: 10px auto;
         font-size: 2.4vw; }
-      .contenido .text-center p,
+      .contenido .text-center-1 p,
       .contenido .text-center-2 p,
       .contenido .text-center-3 p,
       .contenido .text-center-4 p {
@@ -176,9 +188,9 @@ header {
     font-size: 2.3vw; }
   .contenido {
     width: 90%; }
-    .contenido .text-center h1,
-    .contenido .text-center h2,
-    .contenido .text-center h3,
+    .contenido .text-center-1 h1,
+    .contenido .text-center-1 h2,
+    .contenido .text-center-1 h3,
     .contenido .text-center-2 h1,
     .contenido .text-center-2 h2,
     .contenido .text-center-2 h3,
@@ -191,7 +203,7 @@ header {
       color: white;
       margin: 10px auto;
       font-size: 2.4vw; }
-    .contenido .text-center p,
+    .contenido .text-center-1 p,
     .contenido .text-center-2 p,
     .contenido .text-center-3 p,
     .contenido .text-center-4 p {
@@ -203,9 +215,9 @@ header {
 @media only screen and (min-width: 767.98px) and (max-width: 991.98px) {
   .contenido {
     width: 90%; }
-    .contenido .text-center h1,
-    .contenido .text-center h2,
-    .contenido .text-center h3,
+    .contenido .text-center-1 h1,
+    .contenido .text-center-1 h2,
+    .contenido .text-center-1 h3,
     .contenido .text-center-2 h1,
     .contenido .text-center-2 h2,
     .contenido .text-center-2 h3,
@@ -218,7 +230,7 @@ header {
       color: white;
       margin: 10px auto;
       font-size: 2.4vw; }
-    .contenido .text-center p,
+    .contenido .text-center-1 p,
     .contenido .text-center-2 p,
     .contenido .text-center-3 p,
     .contenido .text-center-4 p {
@@ -230,9 +242,9 @@ header {
 @media only screen and (min-width: 991.98px) and (max-width: 1199.98px) {
   .contenido {
     width: 90%; }
-    .contenido .text-center h1,
-    .contenido .text-center h2,
-    .contenido .text-center h3,
+    .contenido .text-center-1 h1,
+    .contenido .text-center-1 h2,
+    .contenido .text-center-1 h3,
     .contenido .text-center-2 h1,
     .contenido .text-center-2 h2,
     .contenido .text-center-2 h3,
@@ -245,7 +257,7 @@ header {
       color: white;
       margin: 10px auto;
       font-size: 2.4vw; }
-    .contenido .text-center p,
+    .contenido .text-center-1 p,
     .contenido .text-center-2 p,
     .contenido .text-center-3 p,
     .contenido .text-center-4 p {
@@ -257,9 +269,9 @@ header {
 @media only screen and (min-width: 1199.98px) and (max-width: 1399.98px) {
   .contenido {
     width: 90%; }
-    .contenido .text-center h1,
-    .contenido .text-center h2,
-    .contenido .text-center h3,
+    .contenido .text-center-1 h1,
+    .contenido .text-center-1 h2,
+    .contenido .text-center-1 h3,
     .contenido .text-center-2 h1,
     .contenido .text-center-2 h2,
     .contenido .text-center-2 h3,
@@ -272,7 +284,7 @@ header {
       color: white;
       margin: 10px auto;
       font-size: 2.4vw; }
-    .contenido .text-center p,
+    .contenido .text-center-1 p,
     .contenido .text-center-2 p,
     .contenido .text-center-3 p,
     .contenido .text-center-4 p {
