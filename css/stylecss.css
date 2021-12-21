@@ -1,7 +1,7 @@
 .contenido {
   margin: 20px auto;
   background-color: rgba(37, 37, 37, 0.904);
-  width: 70%;
+  width: 90%;
   height: auto;
   border-radius: 1%;
   border-bottom: 2px solid #AB966F;
@@ -25,7 +25,7 @@
     .contenido .text-center-4 h2,
     .contenido .text-center-4 h3 {
       color: #ffffff;
-      font-size: 1.7vw;
+      font-size: 2vw;
       font-weight: bold; }
     .contenido .text-center-1 p,
     .contenido .text-center-2 p,
@@ -39,16 +39,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 30px; }
+    gap: 20pxq; }
     .contenido .imagen img {
-      width: auto;
-      height: 10vw;
+      width: 100%;
+      height: 15vw;
       cursor: pointer;
       border-radius: 2px;
-      border: 5px solid black; }
+      border: 2px solid black; }
 
 :root {
-  --color-menu: #222222cc; }
+  --color-menu: #222222cc;
+  --color-menu-responsive: #222222fa; }
 
 * {
   padding: 0;
@@ -138,7 +139,7 @@ footer div section a i {
       position: fixed;
       width: 100vw;
       height: 100vh;
-      background-color: var(--color-menu);
+      background-color: var(--color-menu-responsive);
       top: 0;
       right: -100%;
       z-index: 100;
@@ -281,7 +282,7 @@ footer div section a i {
     .contenido .text-center-4 h3 {
       color: white;
       margin: 10px auto;
-      font-size: 2.4vw; }
+      font-size: 2vw; }
     .contenido .text-center-1 p,
     .contenido .text-center-2 p,
     .contenido .text-center-3 p,
@@ -289,7 +290,7 @@ footer div section a i {
       color: white;
       max-width: 70vw;
       padding: 5px;
-      font-size: 2vw; }
+      font-size: 1.3vw; }
     .contenido .imagen {
       gap: 20px; }
       .contenido .imagen img {
@@ -316,7 +317,7 @@ footer div section a i {
     .contenido .text-center-4 h3 {
       color: white;
       margin: 10px auto;
-      font-size: 2.4vw; }
+      font-size: 2vw; }
     .contenido .text-center-1 p,
     .contenido .text-center-2 p,
     .contenido .text-center-3 p,
@@ -324,7 +325,7 @@ footer div section a i {
       color: white;
       max-width: 70vw;
       padding: 5px;
-      font-size: 2vw; }
+      font-size: 1.3vw; }
     .contenido .imagen {
       gap: 20px; }
       .contenido .imagen img {

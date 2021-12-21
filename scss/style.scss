@@ -2,6 +2,7 @@
 
 :root{
     --color-menu: #222222cc;
+    --color-menu-responsive: #222222fa;
 }
 
 *{
@@ -143,7 +144,7 @@ footer{
             position: fixed;
             width: 100vw;
             height: 100vh;
-            background-color: var(--color-menu);
+            background-color: var(--color-menu-responsive);
             top: 0;
             right: -100%;
             z-index: 100;
@@ -322,14 +323,14 @@ footer{
             h3{
             color: white;
             margin: 10px auto;
-            font-size: 2.4vw;
+            font-size: 2vw;
         }
     
             p{
             color: white;
             max-width: 70vw;
             padding: 5px;
-            font-size: 2vw;
+            font-size: 1.3vw;
             }
         }
 
@@ -363,14 +364,14 @@ footer{
             h3{
             color: white;
             margin: 10px auto;
-            font-size: 2.4vw;
+            font-size: 2vw;
         }
     
             p{
             color: white;
             max-width: 70vw;
             padding: 5px;
-            font-size: 2vw;
+            font-size: 1.3vw;
             }
         }
 
