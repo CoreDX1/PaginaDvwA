@@ -41,7 +41,12 @@
             cursor: pointer;
             border-radius: 2px;
             border: 2px solid black;
-            
+            filter: grayscale(100%);
+            transition: all .2s ease-out;
+        }
+
+        img:hover{
+            filter: grayscale(0%);
         }
     }
 }
