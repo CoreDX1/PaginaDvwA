@@ -89,7 +89,7 @@ header {
       text-transform: uppercase;
       transition: all .4s; }
     header .menu li a:hover {
-      color: #CBCBCB; }
+      color: #ffffff; }
   header .menu li::after {
     content: '';
     width: 0%;
