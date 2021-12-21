@@ -79,30 +79,28 @@ header {
   display: flex;
   justify-content: center;
   align-items: center; }
-  header .menu {
-    margin-right: 0px; }
-    header .menu li {
-      display: inline-block; }
-      header .menu li a {
-        color: #bbb9b9;
-        font-size: 20px;
-        margin: 10px;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: all .4s; }
-      header .menu li a:hover {
-        color: #CBCBCB; }
-    header .menu li::after {
-      content: '';
-      width: 0%;
-      display: block;
-      margin: auto;
-      margin-top: 5px;
-      height: 2px;
-      background-color: white;
+  header .menu li {
+    display: inline-block; }
+    header .menu li a {
+      color: #bbb9b9;
+      font-size: 20px;
+      margin: 10px;
+      text-decoration: none;
+      text-transform: uppercase;
       transition: all .4s; }
-    header .menu li:hover::after {
-      width: 90%; }
+    header .menu li a:hover {
+      color: #CBCBCB; }
+  header .menu li::after {
+    content: '';
+    width: 0%;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    height: 2px;
+    background-color: white;
+    transition: all .4s; }
+  header .menu li:hover::after {
+    width: 90%; }
   header .mostrar-menu {
     order: 1; }
   header .esconder-menu,
