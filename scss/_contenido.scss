@@ -33,7 +33,8 @@
     .imagen{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        padding: 30px;
         img{
             width: auto;
             height: 10vw;
