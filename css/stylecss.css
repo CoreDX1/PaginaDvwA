@@ -1,5 +1,5 @@
 :root {
-  --color-menu: #222222; }
+  --color-menu: #222222b4; }
 
 * {
   padding: 0;
@@ -8,17 +8,23 @@
 
 html body {
   background: #fff url("../image/Fondo4.webp") fixed center;
-  background-image: url("../image/Fondo4.webp");
-  background-attachment: fixed;
   background-size: cover;
-  z-index: 0;
-  background-position: center; }
+  background-position-x: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute; }
 
 /*Menu*/
 header {
+  z-index: 1;
+  position: relative;
   background-color: var(--color-menu);
   height: 80px;
-  width: 100%;
+  width: 100vw;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center; }
