@@ -26,7 +26,8 @@
     .contenido .text-center-4 h3 {
       color: white;
       margin: 10px auto;
-      font-size: 1.7vw; }
+      font-size: 1.7vw;
+      font-weight: bold; }
     .contenido .text-center p,
     .contenido .text-center-2 p,
     .contenido .text-center-3 p,
@@ -42,7 +43,8 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Source Serif Pro', serif; }
 
 html body {
   background: #fff url("../image/Fondo4.webp") fixed center;
