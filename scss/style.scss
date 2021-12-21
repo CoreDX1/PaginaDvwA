@@ -1,0 +1,149 @@
+@import "_contenido";
+
+:root{
+    --color-menu: #222222;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    body{
+        background: #fff url("../image/Fondo4.webp") fixed center;                                                       
+        background-image: url("../image/Fondo4.webp") ;                                                                  
+        background-attachment: fixed;                                                                                  
+        background-size: cover;                                                                                                                                                                                       
+        z-index: 0;                                                                                                     
+        background-position: center; 
+    }
+}
+
+
+/*Menu*/
+
+header{
+    background-color: var(--color-menu);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .menu{
+        margin-right: 0px;
+
+        li{
+            display: inline-block;
+
+            a{ 
+                color: #9d9d9d;
+                font-size: 20px;
+                margin: 10px;
+                text-decoration: none;
+                text-transform: uppercase;
+                transition: all .4s;
+            }
+    
+            a:hover{
+                color: #CBCBCB;                                                                                       
+            }
+        }
+
+        li::after{
+            content: '';
+            width: 0%;
+            display: block;
+            margin: auto;
+            margin-top: 5px;
+            height: 2px;
+            background-color: rgb(255, 255, 255);
+            transition: all .4s;
+        }
+
+        li:hover::after{
+            width: 90%;
+        }
+    }
+
+
+    .mostrar-menu{
+        order: 1;
+    }
+
+    .esconder-menu,
+    .mostrar-menu{
+        font-size: 30px;
+        color: white;
+        display: none;
+        cursor: pointer;
+    }
+
+    .esconder-menu:hover,
+    .mostrar-menu:hover{
+        color: #CBCBCB; 
+    }
+
+    #check{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:800px) {
+
+    /*Menu*/
+    
+    header{
+        
+        justify-content: end;
+
+        .mostrar-menu,
+        .esconder-menu{
+            display: block;
+            margin-right: 40px;
+        }
+        
+        .esconder-menu{
+            position: absolute;
+            top: 40px;
+            right: 40px;
+        }
+
+        #check:checked ~ .menu{
+            right: 0;
+        }
+
+        .menu{
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background-color: var(--color-menu);
+            top: 0;
+            right: -100%;
+            z-index: 100;
+            text-align: center;
+            padding: 100px 0px;
+            transition: all .4s ease;
+            
+            li{
+                display: unset;
+                a{
+                    display: block;
+                }
+            }
+
+            li:after{
+                max-width: 100px;
+            }
+
+            li:hover:after{
+                max-width: 20%;
+            }
+        }
+
+    }
+
+}
