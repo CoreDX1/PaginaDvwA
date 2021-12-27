@@ -51,7 +51,7 @@
     .contenido .imagen img:hover {
       filter: grayscale(0%); }
 
-.contenedor .requisito {
+.requisito {
   margin: 20px auto;
   background-color: rgba(37, 37, 37, 0.904);
   width: 90%;
@@ -60,16 +60,16 @@
   border-bottom: 2px solid #AB966F;
   border-top: 2px solid #AB966F;
   padding: 20px; }
-  .contenedor .requisito h2,
-  .contenedor .requisito h3,
-  .contenedor .requisito ul {
+  .requisito h2,
+  .requisito h3,
+  .requisito ul {
     color: white; }
-  .contenedor .requisito h2 {
+  .requisito h2 {
     text-align: center;
     color: #9e9e9e; }
-  .contenedor .requisito h3 {
+  .requisito h3 {
     color: #9e9e9e; }
-  .contenedor .requisito ul li {
+  .requisito ul li {
     font-size: 1.3vw; }
 
 :root {
