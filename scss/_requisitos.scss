@@ -1,4 +1,8 @@
-.requisitos{
+
+
+.contenedor{
+    
+    .requisito{
         margin: 20px auto;
         background-color: rgba(37, 37, 37, 0.904);
         width: 90%;
@@ -8,5 +12,25 @@
         border-top: 2px solid #AB966F;
         padding: 20px;
 
+        h2,
+        h3,
+        ul{
+            color: rgb(255, 255, 255);
+        }
+
+        h2{
+            text-align: center;
+            color: rgb(158, 158, 158);
+        }
+
+        h3{
+            color: rgb(158, 158, 158);
+        }
         
+        ul {
+            li{
+                font-size: 1.3vw
+            }
+        }
+    }
 }
