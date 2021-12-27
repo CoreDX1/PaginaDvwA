@@ -72,6 +72,22 @@
   .requisito ul li {
     font-size: 1.3vw; }
 
+.facciones {
+  margin: 20px auto;
+  background-color: rgba(37, 37, 37, 0.904);
+  width: 90%;
+  height: auto;
+  border-radius: 1%;
+  border-bottom: 2px solid #AB966F;
+  border-top: 2px solid #AB966F;
+  padding: 20px; }
+  .facciones h2 {
+    color: #9e9e9e;
+    text-align: center; }
+  .facciones p {
+    color: white;
+    margin-top: 10px; }
+
 :root {
   --color-menu: #222222cc;
   --color-menu-responsive: #222222fa; }
