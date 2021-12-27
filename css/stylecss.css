@@ -81,10 +81,10 @@
   border-bottom: 2px solid #AB966F;
   border-top: 2px solid #AB966F;
   padding: 20px; }
-  .facciones h2 {
+  .facciones div h2 {
     color: #9e9e9e;
     text-align: center; }
-  .facciones p {
+  .facciones div p {
     color: white;
     margin-top: 10px; }
 
