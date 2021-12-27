@@ -1,0 +1,400 @@
+.contenido {
+  margin: 20px auto;
+  background-color: rgba(37, 37, 37, 0.904);
+  width: 90%;
+  height: auto;
+  border-radius: 1%;
+  border-bottom: 2px solid #AB966F;
+  border-top: 2px solid #AB966F;
+  padding: 20px;
+}
+.contenido .text-center-1,
+.contenido .text-center-2,
+.contenido .text-center-3,
+.contenido .text-center-4 {
+  margin-top: 30px;
+}
+.contenido .text-center-1 h1,
+.contenido .text-center-1 h2,
+.contenido .text-center-1 h3,
+.contenido .text-center-2 h1,
+.contenido .text-center-2 h2,
+.contenido .text-center-2 h3,
+.contenido .text-center-3 h1,
+.contenido .text-center-3 h2,
+.contenido .text-center-3 h3,
+.contenido .text-center-4 h1,
+.contenido .text-center-4 h2,
+.contenido .text-center-4 h3 {
+  color: #ffffff;
+  font-size: 2vw;
+  font-weight: bold;
+}
+.contenido .text-center-1 p,
+.contenido .text-center-2 p,
+.contenido .text-center-3 p,
+.contenido .text-center-4 p {
+  color: white;
+  max-width: 55vw;
+  padding: 5px;
+  font-size: 1.3vw;
+}
+.contenido .imagen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+.contenido .imagen img {
+  width: 100%;
+  height: 15vw;
+  cursor: pointer;
+  border-radius: 2px;
+  border: 2px solid black;
+  filter: grayscale(100%);
+  transition: all 0.2s ease-out;
+}
+.contenido .imagen img:hover {
+  filter: grayscale(0%);
+}
+
+:root {
+  --color-menu: #222222cc;
+  --color-menu-responsive: #222222fa;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Serif Pro", serif;
+}
+
+html body {
+  background: #fff url("../image/Fondo4.webp") fixed center;
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+/*Menu*/
+header {
+  z-index: 1;
+  position: relative;
+  background-color: var(--color-menu);
+  height: 80px;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .menu li {
+  display: inline-block;
+}
+header .menu li a {
+  color: #bbb9b9;
+  font-size: 20px;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.4s;
+}
+header .menu li a:hover {
+  color: #ffffff;
+}
+header .menu li::after {
+  content: "";
+  width: 0%;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  height: 2px;
+  background-color: white;
+  transition: all 0.4s;
+}
+header .menu li:hover::after {
+  width: 90%;
+}
+header .mostrar-menu {
+  order: 1;
+}
+header .esconder-menu,
+header .mostrar-menu {
+  font-size: 30px;
+  color: #ffffff;
+  display: none;
+  cursor: pointer;
+}
+header .esconder-menu:hover,
+header .mostrar-menu:hover {
+  color: #CBCBCB;
+}
+header #check {
+  display: none;
+}
+
+footer div section a i {
+  font-size: 1.2vw;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575.98px) {
+  /*Menu*/
+  header {
+    height: 5%;
+    justify-content: end;
+  }
+  header .mostrar-menu,
+header .esconder-menu {
+    display: block;
+    margin-right: 40px;
+  }
+  header .esconder-menu {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  header #check:checked ~ .menu {
+    right: 0;
+  }
+  header .menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-menu-responsive);
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    text-align: center;
+    padding: 100px 0px;
+    transition: all 0.4s ease;
+  }
+  header .menu li {
+    display: unset;
+  }
+  header .menu li a {
+    display: block;
+  }
+  header .menu li:after {
+    max-width: 100px;
+  }
+  header .menu li:hover:after {
+    max-width: 20%;
+  }
+
+  .contenido {
+    width: 90%;
+  }
+  .contenido .text-center-1,
+.contenido .text-center-2,
+.contenido .text-center-3,
+.contenido .text-center-4 {
+    margin-top: 30px;
+  }
+  .contenido .text-center-1 h1,
+.contenido .text-center-1 h2,
+.contenido .text-center-1 h3,
+.contenido .text-center-2 h1,
+.contenido .text-center-2 h2,
+.contenido .text-center-2 h3,
+.contenido .text-center-3 h1,
+.contenido .text-center-3 h2,
+.contenido .text-center-3 h3,
+.contenido .text-center-4 h1,
+.contenido .text-center-4 h2,
+.contenido .text-center-4 h3 {
+    color: white;
+    margin: 10px auto;
+    font-size: 2.4vw;
+  }
+  .contenido .text-center-1 p,
+.contenido .text-center-2 p,
+.contenido .text-center-3 p,
+.contenido .text-center-4 p {
+    color: white;
+    max-width: 55vw;
+    padding: 5px;
+    font-size: 2vw;
+  }
+  .contenido .imagen {
+    gap: 20px;
+  }
+  .contenido .imagen img {
+    width: 100%;
+    height: 15vw;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 2px solid black;
+  }
+}
+@media only screen and (min-width: 575.98px) and (max-width: 767.98px) {
+  header .menu li a {
+    font-size: 2.3vw;
+  }
+
+  .contenido {
+    width: 90%;
+  }
+  .contenido .text-center-1 h1,
+.contenido .text-center-1 h2,
+.contenido .text-center-1 h3,
+.contenido .text-center-2 h1,
+.contenido .text-center-2 h2,
+.contenido .text-center-2 h3,
+.contenido .text-center-3 h1,
+.contenido .text-center-3 h2,
+.contenido .text-center-3 h3,
+.contenido .text-center-4 h1,
+.contenido .text-center-4 h2,
+.contenido .text-center-4 h3 {
+    color: white;
+    margin: 10px auto;
+    font-size: 2.4vw;
+  }
+  .contenido .text-center-1 p,
+.contenido .text-center-2 p,
+.contenido .text-center-3 p,
+.contenido .text-center-4 p {
+    color: white;
+    max-width: 70vw;
+    padding: 5px;
+    font-size: 2vw;
+  }
+  .contenido .imagen {
+    gap: 20px;
+  }
+  .contenido .imagen img {
+    width: 100%;
+    height: 15vw;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 2px solid black;
+  }
+}
+@media only screen and (min-width: 767.98px) and (max-width: 991.98px) {
+  .contenido {
+    width: 90%;
+  }
+  .contenido .text-center-1 h1,
+.contenido .text-center-1 h2,
+.contenido .text-center-1 h3,
+.contenido .text-center-2 h1,
+.contenido .text-center-2 h2,
+.contenido .text-center-2 h3,
+.contenido .text-center-3 h1,
+.contenido .text-center-3 h2,
+.contenido .text-center-3 h3,
+.contenido .text-center-4 h1,
+.contenido .text-center-4 h2,
+.contenido .text-center-4 h3 {
+    color: white;
+    margin: 10px auto;
+    font-size: 2.4vw;
+  }
+  .contenido .text-center-1 p,
+.contenido .text-center-2 p,
+.contenido .text-center-3 p,
+.contenido .text-center-4 p {
+    color: white;
+    max-width: 70vw;
+    padding: 5px;
+    font-size: 2vw;
+  }
+  .contenido .imagen {
+    gap: 20px;
+  }
+  .contenido .imagen img {
+    width: 100%;
+    height: 15vw;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 2px solid black;
+  }
+}
+@media only screen and (min-width: 991.98px) and (max-width: 1199.98px) {
+  .contenido {
+    width: 90%;
+  }
+  .contenido .text-center-1 h1,
+.contenido .text-center-1 h2,
+.contenido .text-center-1 h3,
+.contenido .text-center-2 h1,
+.contenido .text-center-2 h2,
+.contenido .text-center-2 h3,
+.contenido .text-center-3 h1,
+.contenido .text-center-3 h2,
+.contenido .text-center-3 h3,
+.contenido .text-center-4 h1,
+.contenido .text-center-4 h2,
+.contenido .text-center-4 h3 {
+    color: white;
+    margin: 10px auto;
+    font-size: 2vw;
+  }
+  .contenido .text-center-1 p,
+.contenido .text-center-2 p,
+.contenido .text-center-3 p,
+.contenido .text-center-4 p {
+    color: white;
+    max-width: 70vw;
+    padding: 5px;
+    font-size: 1.3vw;
+  }
+  .contenido .imagen {
+    gap: 20px;
+  }
+  .contenido .imagen img {
+    width: 100%;
+    height: 15vw;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 2px solid black;
+  }
+}
+@media only screen and (min-width: 1199.98px) and (max-width: 1399.98px) {
+  .contenido {
+    width: 90%;
+  }
+  .contenido .text-center-1 h1,
+.contenido .text-center-1 h2,
+.contenido .text-center-1 h3,
+.contenido .text-center-2 h1,
+.contenido .text-center-2 h2,
+.contenido .text-center-2 h3,
+.contenido .text-center-3 h1,
+.contenido .text-center-3 h2,
+.contenido .text-center-3 h3,
+.contenido .text-center-4 h1,
+.contenido .text-center-4 h2,
+.contenido .text-center-4 h3 {
+    color: white;
+    margin: 10px auto;
+    font-size: 2vw;
+  }
+  .contenido .text-center-1 p,
+.contenido .text-center-2 p,
+.contenido .text-center-3 p,
+.contenido .text-center-4 p {
+    color: white;
+    max-width: 70vw;
+    padding: 5px;
+    font-size: 1.3vw;
+  }
+  .contenido .imagen {
+    gap: 20px;
+  }
+  .contenido .imagen img {
+    width: 100%;
+    height: 15vw;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 2px solid black;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
