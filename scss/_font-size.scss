@@ -1,8 +1,10 @@
 
+
 /*575.98px*/
 
 @mixin font__size-titulo-575{
-    font-size: 5.5vw;
+    font-size: 4.5vw;
+    color: rgb(158, 158, 158);
 }
 
 @mixin font__size-parrafo-575{
@@ -13,6 +15,7 @@
 
 @mixin font__size-titulo-767{
     font-size: 3.5vw;
+    color: rgb(158, 158, 158);
 }
 
 @mixin font__size-parrafo-767{
@@ -22,6 +25,7 @@
 
 @mixin font__size-titulo-992{
     font-size: 3.5vw;
+    color: rgb(158, 158, 158);
 }
 
 @mixin font__size-parrafo-992{
@@ -31,7 +35,8 @@
 /*1200px*/
 
 @mixin font__size-titulo-1200{
-    font-size: 3vw;
+    font-size: 2.7vw;
+    color: rgb(158, 158, 158);
 }
 
 @mixin font__size-parrafo-1200{
@@ -42,6 +47,7 @@
 
 @mixin font__size-titulo-1400{
     font-size: 2.4vw;
+    color: rgb(158, 158, 158);
 }
 
 @mixin font__size-parrafo-1400{

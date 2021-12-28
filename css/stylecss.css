@@ -24,7 +24,7 @@
     .contenido .text-center-4 h1,
     .contenido .text-center-4 h2,
     .contenido .text-center-4 h3 {
-      color: #ffffff;
+      color: #9e9e9e;
       font-size: 2vw;
       font-weight: bold; }
     .contenido .text-center-1 p,
@@ -117,7 +117,8 @@
 /*1400px*/
 :root {
   --color-menu: #222222cc;
-  --color-menu-responsive: #222222fa; }
+  --color-menu-responsive: #222222fa;
+  --color-titulo: rgb(158, 158, 158); }
 
 * {
   padding: 0;
@@ -241,15 +242,17 @@ footer div section a i {
       .contenido .text-center-4 h3 {
         color: white;
         margin: 10px auto;
-        font-size: 2.4vw; }
+        font-size: 4.5vw;
+        color: #9e9e9e; }
       .contenido .text-center-1 p,
       .contenido .text-center-2 p,
       .contenido .text-center-3 p,
       .contenido .text-center-4 p {
         color: white;
-        max-width: 55vw;
+        width: 100%;
         padding: 5px;
-        font-size: 2vw; }
+        font-size: 2.3vw;
+        max-width: unset; }
     .contenido .imagen {
       gap: 20px; }
       .contenido .imagen img {
@@ -258,12 +261,19 @@ footer div section a i {
         cursor: pointer;
         border-radius: 2px;
         border: 2px solid black; }
+  .requisito h2,
+  .requisito h3 {
+    font-size: 4.5vw;
+    color: #9e9e9e; }
+  .requisito .center-line .texto__info {
+    font-size: 2.3vw; }
   .facciones {
     flex-direction: column; }
     .facciones .texto-facc {
       width: 100%; }
       .facciones .texto-facc h2 {
-        font-size: 5.5vw; }
+        font-size: 4.5vw;
+        color: #9e9e9e; }
       .facciones .texto-facc p {
         font-size: 2.3vw;
         margin-left: 0; }
@@ -296,7 +306,8 @@ footer div section a i {
     .contenido .text-center-4 h3 {
       color: white;
       margin: 10px auto;
-      font-size: 2.4vw; }
+      font-size: 3.5vw;
+      color: #9e9e9e; }
     .contenido .text-center-1 p,
     .contenido .text-center-2 p,
     .contenido .text-center-3 p,
@@ -304,7 +315,7 @@ footer div section a i {
       color: white;
       max-width: 70vw;
       padding: 5px;
-      font-size: 2vw; }
+      font-size: 2.3vw; }
     .contenido .imagen {
       gap: 20px; }
       .contenido .imagen img {
@@ -315,7 +326,8 @@ footer div section a i {
         border: 2px solid black; }
   .requisito h2,
   .requisito h3 {
-    font-size: 3.5vw; }
+    font-size: 3.5vw;
+    color: #9e9e9e; }
   .requisito .center-line .texto__info {
     font-size: 2.3vw; }
   .facciones {
@@ -324,7 +336,8 @@ footer div section a i {
     .facciones .texto-facc {
       max-width: none; }
       .facciones .texto-facc h2 {
-        font-size: 3.5vw; }
+        font-size: 3.5vw;
+        color: #9e9e9e; }
       .facciones .texto-facc p {
         font-size: 2.3vw;
         width: 100%;
@@ -356,7 +369,8 @@ footer div section a i {
     .contenido .text-center-4 h3 {
       color: white;
       margin: 10px auto;
-      font-size: 2.4vw; }
+      font-size: 3.5vw;
+      color: #9e9e9e; }
     .contenido .text-center-1 p,
     .contenido .text-center-2 p,
     .contenido .text-center-3 p,
@@ -375,11 +389,13 @@ footer div section a i {
         border: 2px solid black; }
   .requisito h2,
   .requisito h3 {
-    font-size: 3.5vw; }
+    font-size: 3.5vw;
+    color: #9e9e9e; }
   .requisito .center-line .texto__info {
-    font-size: 2.3vw; }
+    font-size: 2vw; }
   .facciones .texto-facc h2 {
-    font-size: 3.5vw; }
+    font-size: 3.5vw;
+    color: #9e9e9e; }
   .facciones .texto-facc p {
     font-size: 2vw;
     width: 100%;
@@ -402,7 +418,8 @@ footer div section a i {
     .contenido .text-center-4 h3 {
       color: white;
       margin: 10px auto;
-      font-size: 2vw; }
+      font-size: 2.7vw;
+      color: #9e9e9e; }
     .contenido .text-center-1 p,
     .contenido .text-center-2 p,
     .contenido .text-center-3 p,
@@ -410,7 +427,7 @@ footer div section a i {
       color: white;
       max-width: 70vw;
       padding: 5px;
-      font-size: 1.3vw; }
+      font-size: 1.7vw; }
     .contenido .imagen {
       gap: 20px; }
       .contenido .imagen img {
@@ -421,11 +438,13 @@ footer div section a i {
         border: 2px solid black; }
   .requisito h2,
   .requisito h3 {
-    font-size: 2vw; }
+    font-size: 2.7vw;
+    color: #9e9e9e; }
   .requisito .center-line .texto__info {
-    font-size: 1.3vw; }
+    font-size: 1.7vw; }
   .facciones .texto-facc h2 {
-    font-size: 3vw; }
+    font-size: 2.7vw;
+    color: #9e9e9e; }
   .facciones .texto-facc p {
     font-size: 1.7vw;
     width: 100%;
@@ -448,7 +467,8 @@ footer div section a i {
     .contenido .text-center-4 h3 {
       color: white;
       margin: 10px auto;
-      font-size: 2vw; }
+      font-size: 2.4vw;
+      color: #9e9e9e; }
     .contenido .text-center-1 p,
     .contenido .text-center-2 p,
     .contenido .text-center-3 p,
@@ -456,7 +476,7 @@ footer div section a i {
       color: white;
       max-width: 70vw;
       padding: 5px;
-      font-size: 1.3vw; }
+      font-size: 1.7vw; }
     .contenido .imagen {
       gap: 20px; }
       .contenido .imagen img {
@@ -467,11 +487,13 @@ footer div section a i {
         border: 2px solid black; }
   .requisito h2,
   .requisito h3 {
-    font-size: 2vw; }
+    font-size: 2.4vw;
+    color: #9e9e9e; }
   .requisito .center-line .texto__info {
-    font-size: 1.3vw; }
+    font-size: 1.7vw; }
   .facciones .texto-facc h2 {
-    font-size: 2.4vw; }
+    font-size: 2.4vw;
+    color: #9e9e9e; }
   .facciones .texto-facc p {
     font-size: 1.7vw;
     width: 100%;

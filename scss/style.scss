@@ -7,6 +7,7 @@
 :root{
     --color-menu: #222222cc;
     --color-menu-responsive: #222222fa;
+    --color-titulo: rgb(158, 158, 158);
 }
 
 *{
@@ -191,14 +192,15 @@ footer{
         h3{
             color: white;
             margin: 10px auto;
-            font-size: 2.4vw;
+            @include font__size-titulo-575;
         }
     
         p{
             color: white;
-            max-width: 55vw;
+            width: 100%;
             padding: 5px;
-            font-size: 2vw;
+            @include font__size-parrafo-575;
+            max-width: unset;
         }
     }
 
@@ -216,13 +218,15 @@ footer{
     }
 
     .requisito{
-
-
+        h2,
+        h3{
+            @include font__size-titulo-575;
+        }
 
         .center-line {
 
             .texto__info{
-                
+                @include font__size-parrafo-575;
             }
         }
     }
@@ -292,14 +296,14 @@ footer{
             h3{
             color: white;
             margin: 10px auto;
-            font-size: 2.4vw;
+            @include font__size-titulo-767;
         }
     
             p{
             color: white;
             max-width: 70vw;
             padding: 5px;
-            font-size: 2vw;
+            @include font__size-parrafo-767;
             }
         }
 
@@ -320,13 +324,13 @@ footer{
 
         h2,
         h3{
-            font-size: 3.5vw;
+            @include font__size-titulo-767;
         }
 
         .center-line {
 
             .texto__info{
-                font-size: 2.3vw;
+                @include font__size-parrafo-767;
             }
         }
     }
@@ -380,16 +384,16 @@ footer{
             h1,
             h2,
             h3{
-            color: white;
+            color: rgb(255, 255, 255);
             margin: 10px auto;
-            font-size: 2.4vw;
+            @include font__size-titulo-992;
         }
     
             p{
             color: white;
             max-width: 70vw;
             padding: 5px;
-            font-size: 2vw;
+            @include font__size-parrafo-992;
             }
         }
 
@@ -410,13 +414,13 @@ footer{
 
         h2,
         h3{
-            font-size: 3.5vw;
+            @include font__size-titulo-992;
         }
 
         .center-line {
 
             .texto__info{
-                font-size: 2.3vw;
+                @include font__size-parrafo-992;
             }
         }
     }
@@ -455,14 +459,14 @@ footer{
             h3{
             color: white;
             margin: 10px auto;
-            font-size: 2vw;
+            @include font__size-titulo-1200;
         }
     
             p{
             color: white;
             max-width: 70vw;
             padding: 5px;
-            font-size: 1.3vw;
+            @include font__size-parrafo-1200;
             }
         }
 
@@ -483,13 +487,13 @@ footer{
 
         h2,
         h3{
-            font-size: 2vw;
+            @include font__size-titulo-1200;
         }
 
         .center-line {
 
             .texto__info{
-                font-size: 1.3vw;
+                @include font__size-parrafo-1200;
             }
         }
     }
@@ -528,14 +532,14 @@ footer{
             h3{
             color: white;
             margin: 10px auto;
-            font-size: 2vw;
+            @include font__size-titulo-1400;
         }
     
             p{
             color: white;
             max-width: 70vw;
             padding: 5px;
-            font-size: 1.3vw;
+            @include font__size-parrafo-1400;
             }
         }
 
@@ -556,13 +560,13 @@ footer{
 
         h2,
         h3{
-            font-size: 2vw;
+            @include font__size-titulo-1400;
         }
 
         .center-line {
 
             .texto__info{
-                font-size: 1.3vw;
+                @include font__size-parrafo-1400;
             }
         }
     }
