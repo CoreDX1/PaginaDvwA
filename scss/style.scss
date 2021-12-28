@@ -1,8 +1,9 @@
-@import "contenido";
-@import "requisitos";
-@import "facciones";
+@import "pages/contenido";
+@import "pages/requisitos";
+@import "pages/facciones";
+@import "pages/formulario";
+@import "pages/wallpaper";
 @import "font-size";
-@import "formulario";
 
 :root{
     --color-menu: #222222cc;
@@ -286,6 +287,11 @@ footer{
             line-height: 3;
             }
         }
+    }
+
+    .photo-gallery{
+
+        height: auto;
     }
 }
 

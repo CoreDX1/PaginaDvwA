@@ -1,0 +1,50 @@
+
+
+.photo-gallery{
+        margin: 20px auto;
+        background-color: rgba(37, 37, 37, 0.904);
+        width: 90%;
+        height: 100%;
+        border-radius: 1%;
+        border-bottom: 2px solid #AB966F;
+        border-top: 2px solid #AB966F;
+        padding: 20px;
+    p{
+        color: white;
+    }
+    
+    h2{
+        font-weight:bold;
+        margin-bottom:40px;
+        padding-top:40px;
+        color: rgb(158, 158, 158);
+    }
+    
+    .intro{
+        font-size:16px;
+        max-width:500px;
+        margin:0 auto 40px;
+
+        p{
+            margin-bottom:0;
+        }
+    }
+    
+    .photos{
+        padding-bottom:20px;
+        
+        .img-fluid{
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .item{
+        padding-bottom:30px;
+    }
+}
+
+
+
+
+
