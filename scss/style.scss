@@ -1,6 +1,8 @@
 @import "contenido";
 @import "requisitos";
 @import "facciones";
+@import "font-size";
+
 
 :root{
     --color-menu: #222222cc;
@@ -215,17 +217,34 @@ footer{
 
     .requisito{
 
-        h2,
-        h3{
-            font-size: 3.5vw;
-        }
+
 
         .center-line {
 
             .texto__info{
-                font-size: 2.3vw;
+                
             }
         }
+    }
+
+    .facciones{
+
+        
+
+        .texto-facc{
+            border: red 1px solid;
+            width: 100%;
+
+            h2{
+                @include font__size-titulo-575;
+            }
+
+            p{
+                @include font__size-parrafo-575
+            }
+        }
+
+        
     }
 
 }
@@ -466,5 +485,9 @@ footer{
                 font-size: 1.3vw;
             }
         }
+    }
+
+    .facciones{
+        
     }
 }
