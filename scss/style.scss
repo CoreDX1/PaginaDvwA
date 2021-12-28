@@ -2,7 +2,7 @@
 @import "requisitos";
 @import "facciones";
 @import "font-size";
-
+@import "formulario";
 
 :root{
     --color-menu: #222222cc;
@@ -263,6 +263,30 @@ footer{
         }
     }
 
+    .center{
+
+        .register{
+
+            width: 90%;
+            
+
+            h4{
+
+                @include font__size-titulo-575;
+            }
+
+            p,
+            a{
+                @include font__size-parrafo-575;
+            }
+
+            input,
+            nput::-webkit-input-placeholder {
+            @include font__size-parrafo-575;
+            line-height: 3;
+            }
+        }
+    }
 }
 
     
@@ -366,7 +390,28 @@ footer{
                 
             }
         }
+    }
 
+    .center{
+
+        .register{
+
+            h4{
+
+                @include font__size-titulo-767;
+            }
+
+            p,
+            a{
+                @include font__size-parrafo-767;
+            }
+
+            input,
+            nput::-webkit-input-placeholder {
+            @include font__size-parrafo-767;
+            line-height: 3;
+            }
+        }
     }
 }
 
@@ -438,6 +483,28 @@ footer{
                 @include font__size-parrafo-992;
                 width: 100%;
                 margin-left: 0;
+            }
+        }
+    }
+
+    .center{
+
+        .register{
+
+            h4{
+
+                @include font__size-titulo-992;
+            }
+
+            p,
+            a{
+                @include font__size-parrafo-992;
+            }
+
+            input,
+            nput::-webkit-input-placeholder {
+            @include font__size-parrafo-992;
+            line-height: 3;
             }
         }
     }
@@ -514,6 +581,28 @@ footer{
             }
         }
     }
+
+    .center{
+
+        .register{
+
+            h4{
+
+                @include font__size-titulo-1200;
+            }
+
+            p,
+            a{
+                @include font__size-parrafo-1200;
+            }
+
+            input,
+            nput::-webkit-input-placeholder {
+            @include font__size-parrafo-1200;
+            line-height: 3;
+            }
+        }
+    }
 }
 
 // X-Large devices (large desktops, less than 1400px)
@@ -584,6 +673,28 @@ footer{
                 @include font__size-parrafo-1400;
                 width: 100%;
                 margin-left: 0;
+            }
+        }
+    }
+
+    .center{
+
+        .register{
+
+            h4{
+
+                @include font__size-titulo-1400;
+            }
+
+            p,
+            a{
+                @include font__size-parrafo-1400;
+            }
+
+            input,
+            nput::-webkit-input-placeholder {
+            @include font__size-parrafo-1400;
+            line-height: 3;
             }
         }
     }
