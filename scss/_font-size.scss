@@ -2,7 +2,7 @@
 /*575.98px*/
 
 @mixin font__size-titulo-575{
-    font-size: 3.5vw;
+    font-size: 5.5vw;
 }
 
 @mixin font__size-parrafo-575{
@@ -20,30 +20,30 @@
 }
 /*992px*/
 
-    @mixin font__size-titulo-992{
-        font-size: 3.5vw;
-    }
+@mixin font__size-titulo-992{
+    font-size: 3.5vw;
+}
 
-    @mixin font__size-parrafo-992{
-        font-size: 2.3vw;
-    }
+@mixin font__size-parrafo-992{
+    font-size: 2vw;
+}
 
 /*1200px*/
 
 @mixin font__size-titulo-1200{
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 @mixin font__size-parrafo-1200{
-    font-size: 1.3vw;
+    font-size: 1.7vw;
 }
 
 /*1400px*/
 
 @mixin font__size-titulo-1400{
-    font-size: 2vw;
+    font-size: 2.4vw;
 }
 
 @mixin font__size-parrafo-1400{
-    font-size: 1.3vw;
+    font-size: 1.7vw;
 }

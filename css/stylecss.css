@@ -258,13 +258,24 @@ footer div section a i {
         cursor: pointer;
         border-radius: 2px;
         border: 2px solid black; }
-  .facciones .texto-facc {
-    border: red 1px solid;
-    width: 100%; }
-    .facciones .texto-facc h2 {
-      font-size: 3.5vw; }
-    .facciones .texto-facc p {
-      font-size: 2.3vw; } }
+  .facciones {
+    flex-direction: column; }
+    .facciones .texto-facc {
+      width: 100%; }
+      .facciones .texto-facc h2 {
+        font-size: 5.5vw; }
+      .facciones .texto-facc p {
+        font-size: 2.3vw;
+        margin-left: 0; }
+    .facciones .table__test {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .facciones .table__test table {
+        top: 0;
+        right: 0;
+        margin: 0; } }
 
 @media only screen and (min-width: 575.98px) and (max-width: 767.98px) {
   header .menu li a {
@@ -306,7 +317,27 @@ footer div section a i {
   .requisito h3 {
     font-size: 3.5vw; }
   .requisito .center-line .texto__info {
-    font-size: 2.3vw; } }
+    font-size: 2.3vw; }
+  .facciones {
+    justify-content: unset;
+    flex-direction: column; }
+    .facciones .texto-facc {
+      max-width: none; }
+      .facciones .texto-facc h2 {
+        font-size: 3.5vw; }
+      .facciones .texto-facc p {
+        font-size: 2.3vw;
+        width: 100%;
+        margin-left: 0; }
+    .facciones .table__test {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .facciones .table__test table {
+        top: 0;
+        right: 0;
+        margin: 0; } }
 
 @media only screen and (min-width: 767.98px) and (max-width: 991.98px) {
   .contenido {
@@ -346,7 +377,13 @@ footer div section a i {
   .requisito h3 {
     font-size: 3.5vw; }
   .requisito .center-line .texto__info {
-    font-size: 2.3vw; } }
+    font-size: 2.3vw; }
+  .facciones .texto-facc h2 {
+    font-size: 3.5vw; }
+  .facciones .texto-facc p {
+    font-size: 2vw;
+    width: 100%;
+    margin-left: 0; } }
 
 @media only screen and (min-width: 991.98px) and (max-width: 1199.98px) {
   .contenido {
@@ -386,7 +423,13 @@ footer div section a i {
   .requisito h3 {
     font-size: 2vw; }
   .requisito .center-line .texto__info {
-    font-size: 1.3vw; } }
+    font-size: 1.3vw; }
+  .facciones .texto-facc h2 {
+    font-size: 3vw; }
+  .facciones .texto-facc p {
+    font-size: 1.7vw;
+    width: 100%;
+    margin-left: 0; } }
 
 @media only screen and (min-width: 1199.98px) and (max-width: 1399.98px) {
   .contenido {
@@ -426,4 +469,10 @@ footer div section a i {
   .requisito h3 {
     font-size: 2vw; }
   .requisito .center-line .texto__info {
-    font-size: 1.3vw; } }
+    font-size: 1.3vw; }
+  .facciones .texto-facc h2 {
+    font-size: 2.4vw; }
+  .facciones .texto-facc p {
+    font-size: 1.7vw;
+    width: 100%;
+    margin-left: 0; } }

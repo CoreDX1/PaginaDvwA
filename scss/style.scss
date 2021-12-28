@@ -229,10 +229,9 @@ footer{
 
     .facciones{
 
-        
+        flex-direction: column;
 
         .texto-facc{
-            border: red 1px solid;
             width: 100%;
 
             h2{
@@ -240,11 +239,24 @@ footer{
             }
 
             p{
-                @include font__size-parrafo-575
+                @include font__size-parrafo-575;
+                margin-left: 0;
             }
         }
 
-        
+        .table__test{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            table{
+                
+                top: 0;
+                right: 0;
+                margin: 0;
+                
+            }
+        }
     }
 
 }
@@ -318,6 +330,40 @@ footer{
             }
         }
     }
+
+    .facciones{
+        justify-content: unset;
+        flex-direction: column;
+
+        .texto-facc{
+            max-width: none;
+
+            h2{
+                @include font__size-titulo-767;
+            }
+            
+            p{
+                @include font__size-parrafo-767;
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+        
+        .table__test{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            table{
+                
+                top: 0;
+                right: 0;
+                margin: 0;
+                
+            }
+        }
+
+    }
 }
 
 // Medium devices (tablets, less than 992px)
@@ -374,6 +420,23 @@ footer{
             }
         }
     }
+
+    .facciones{
+
+        .texto-facc{
+
+            h2{
+
+                @include font__size-titulo-992;
+            }
+
+            p{
+                @include font__size-parrafo-992;
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+    }
 }
 
 // Large devices (desktops, less than 1200px)
@@ -427,6 +490,23 @@ footer{
 
             .texto__info{
                 font-size: 1.3vw;
+            }
+        }
+    }
+
+    .facciones{
+
+        .texto-facc{
+
+            h2{
+
+                @include font__size-titulo-1200;
+            }
+
+            p{
+                @include font__size-parrafo-1200;
+                width: 100%;
+                margin-left: 0;
             }
         }
     }
@@ -488,6 +568,19 @@ footer{
     }
 
     .facciones{
-        
+
+        .texto-facc{
+
+            h2{
+
+                @include font__size-titulo-1400;
+            }
+
+            p{
+                @include font__size-parrafo-1400;
+                width: 100%;
+                margin-left: 0;
+            }
+        }
     }
 }
